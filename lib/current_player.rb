@@ -10,7 +10,7 @@ end
 
 def current_player(board)
   how_many_turns = turn_count(board)
-  how_many_turns % 2 == 0 ? "X" : "O"
+  how_many_turns % 2 == 0 ? "X" : "O" # ternary operator
 #  if how_many_turns % 2 == 0
 #    return "X"
 #  else
